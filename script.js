@@ -76,6 +76,7 @@ function displayTitle(post) {
   }
   output += `\n[permalink](http://reddit.com${post.permalink})`
   output += `\nby *${post.author}* (↑ ${post.ups}/ ↓ ${post.downs})`
+  output += `\n* * *`
 }
 
 function formatComment(text) {
@@ -106,7 +107,7 @@ function displayComment(comment, index) {
 
   if (comment.data.body) {
     console.log(formatComment(comment.data.body))
-    output += `${formatComment(comment.data.body)} ⏤ by *${comment.data.author}* (↑ ${comment.data.ups}/ ↓ ${comment.data.downs})\n`
+    output += `${formatComment(comment.data.body)} ⏤ by *${comment.data.author}* (↑ ${comment.data.ups}/ ↓ ${comment.data.downs})\n* * *\n`
   } else {
     output += 'deleted \n'
   }
