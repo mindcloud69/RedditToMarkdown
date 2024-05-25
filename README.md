@@ -1,11 +1,11 @@
 # RedditToMarkdown
 Export Reddit Post and comments to a markdown format
 
-![Exemple](https://raw.githubusercontent.com/farnots/RedditToMarkdown/master/exemple.png)
+![Exemple](https://raw.githubusercontent.com/mindcloud69/RedditToMarkdown/master/exemple.png)
 
 ## How to use it
 
-You can download the source and open the *index.html* file or just go to https://panyanyany.github.io/RedditToMarkdown/ to try it directly from your browser
+You can download the source and open the *index.html* file or just go to https://mindcloud69.github.io/RedditToMarkdown/ to try it directly from your browser
 
 ## Feedbacks
 
